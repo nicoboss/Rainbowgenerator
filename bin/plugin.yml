@@ -1,0 +1,26 @@
+name: Rainbowgenerator
+version: 1.0
+author: NicoBosshard
+
+main: me.NicoBosshard.Rainbowgenerator.main
+commands:
+   rb:
+      usage: /<command>
+   rbblock:
+      usage: /<command> block_id (ohne META-Daten)
+   rbsetblock:
+      usage: /<command> block_id (ohne META-Daten)
+   rbcircle:
+      usage: /<command> [radius] [stagesize] [starthight]
+   rbmountain:
+      usage: /<command> [radius] [stagesize] [starthight]
+   rbarena:
+      usage: /<command> [radius] [stagesize] [starthight]   
+   rbcyl:
+      usage: /<command> radius hoehe [schichtgroesse] [unterbruchsgroesse]
+   rbhcyl:
+      usage: /<command> radius hoehe [schichtgroesse] [unterbruchsgroesse]
+   rbbrush:
+      usage: /<command> [radius] [time] => (noch nicht implementiert)
+   rbhbrush:
+      usage: /<command> [radius] [time] => (noch nicht implementiert)      
